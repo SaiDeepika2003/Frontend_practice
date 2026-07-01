@@ -1,0 +1,23 @@
+#footer{
+  border: 2px solid black;
+
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer div a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}

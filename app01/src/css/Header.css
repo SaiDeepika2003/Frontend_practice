@@ -1,0 +1,14 @@
+#header{
+  margin-top: 100px;
+  border: 2px solid black;
+  height: 50px;
+  background-color: beige;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#header a{
+  text-decoration: none;
+}
