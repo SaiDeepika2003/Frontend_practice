@@ -1,0 +1,29 @@
+.display{
+  display: none !important;
+}
+
+#question{
+  background-color: #efefef;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  height: 20%;
+}
+#element{
+  background-color: gray;
+  padding: 20px;
+  font-size: 30px;
+}
+#answer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.btn1{
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
