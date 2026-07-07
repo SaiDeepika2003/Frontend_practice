@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title> Array Methods </title>
+  </head>
+  <body>
+    <h1> Demonstration of Array Methods</h1>
+    <script>
+      const sname = ["pavan", "kalyan", "krishna","karthik","priya","priya"];
+
+      const result1 = sname.map((item, index)=>item.length)
+      console.log(result1);
+
+      const f1 = (item, index)=>{
+        return item === "priya"
+      }
+
+      const f = (item, index)=>{
+        return item.length;
+      }
+
+      const result = sname.map(f)
+      console.log(result);
+
+      const result2 = sname.filter(f1)
+      console.log(result2);
+
+
+    </script>
+  </body>
+</html>
